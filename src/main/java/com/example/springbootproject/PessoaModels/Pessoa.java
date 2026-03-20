@@ -1,9 +1,9 @@
-package PessoaModels;
+package com.example.springbootproject.PessoaModels;
 
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "Pessoas")
+@Table(name = "pessoas")
 public class Pessoa {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

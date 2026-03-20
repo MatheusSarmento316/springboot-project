@@ -1,6 +1,6 @@
-package PessoaRepository;
+package com.example.springbootproject.PessoaRepository;
 
-import PessoaModels.Pessoa;
+import com.example.springbootproject.PessoaModels.Pessoa;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
